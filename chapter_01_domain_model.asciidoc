@@ -94,6 +94,8 @@ so that the examples are easier to talk about.
 * A _product_ is identified by a _sku_, pronounced "skew", which is short for
   "Stock Keeping Unit".
 
+// Being relatively junior, I had to google the concept of an order line here.
+
 * _Customers_ place _orders_. An order is identified by an _order reference_,
   and comprises multiple _order lines_, where each line has a sku, and a
   _quantity_.
@@ -805,6 +807,7 @@ Domain modelling::
     the most likely to change, and the place where you deliver the
     most value to the business.  Make it easy to understand and modify
 
+// Really like this summary & distinction
 Distinguish Entities from Value Objects::
     A "value object" is defined by its attributes.  It's usually best
     implemented as an immutable type.  If you change an attribute on
